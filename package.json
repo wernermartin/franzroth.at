@@ -2,6 +2,7 @@
   "name": "franzroth.at",
   "version": "1.0.0",
   "description": "franzroth.at",
+  "repository": "https://github.com/wernermartin/franzroth.at.git",
   "main": "index.php",
    "dependencies": {
     "gulp": "^3.8.11",
@@ -24,5 +25,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Martin Werner - Medientechnik",
-  "license": "Creative Commons Attribution-ShareAlike 4.0 International License"
+  "license": "GNU GENERAL PUBLIC LICENSE"
 }

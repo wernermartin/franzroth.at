@@ -1,0 +1,314 @@
+* {
+	margin: 0;
+	padding: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Arimo', "Helvetica Neue", HelveticaNeue, TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Helvetica, Arial, sans-serif;	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+	background-image: url(img/bg-wood.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #2f7622;
+}
+
+a:hover {
+	background-color: #2f7622;
+	color: #fff;
+	-moz-transition: background-color 0.3s ease-in;
+	-webkit-transition: background-color 0.3s ease-in;
+	transition: background-color 0.3s ease-in;
+}
+
+p {
+	margin: 5px;
+	margin-bottom: 15px;
+}
+
+.wrapper {
+	padding: 2em;
+	margin: 0 auto;	
+	background: url(img/logo-lot65.png) 50px 115px no-repeat;
+}
+
+.content-wrapper {
+	font-size: 1.5em;
+	padding: 5px;
+	width: 900px;	
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0);
+}
+
+.header {
+	background: url(img/logo-roth.png) no-repeat center center;
+	padding-top: 106px;
+	padding-bottom: 40px;
+	font-size: 1.2em;	
+}
+
+.nav-left {
+	padding-left: 0px;
+}
+
+.nav-right {
+	padding-right: 0px;
+}
+
+.h-nav {	
+	list-style-type: none;
+	margin-top: -15px;
+	background-color: #fff;
+}
+
+.h-nav li {
+	display: inline-block;
+}
+
+.nav-content {
+	position: absolute;
+	top: 155px;
+	overflow: hidden;
+	background-color: #fff;
+	max-height: 0;
+}
+
+.nav-sub {
+	padding: 5px;
+}
+
+.nav-sub ul {
+	padding: 0;
+	margin: 0;	
+}
+
+.nav-sub li {
+	display: block;
+	padding: 5px 0px;
+}
+
+.nav-sub a:hover {
+	text-decoration: underline;
+	background-color: #fff;
+	color: #000;
+}
+
+.nav-item:link, .nav-item:visited {
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	padding: 10px; 
+}
+
+.nav-item:hover {
+	color: #fff;
+	background-color: #2f7622;
+	-moz-transition: background-color 0.3s ease-in;
+	-webkit-transition: background-color 0.3s ease-in;
+	transition: background-color 0.3s ease-in;
+}
+
+.nav-item:focus {
+	background-color: #2f7622;
+	color: #fff;
+}
+
+.nav-item:focus ~ .nav-content {
+	max-height: 400px;
+	-webkit-transition: max-height 0.4s ease-in;
+	-moz-transition: max-height 0.4s ease-in;
+	transition: max-height 0.4s ease-in;
+}
+
+
+.v-nav {
+	list-style-type: none;
+}
+
+.v-nav > li {
+	padding: 5px 0px;
+}
+
+.carousel {
+	margin-bottom: 10px;
+	padding-bottom: -50px;
+	border: 5px solid #2f7622;
+	background: url(img/main01.jpg);
+	height: 200px;
+}
+
+.content-left {
+	background: rgba(255,255,255,0.8);
+	width: 180px;
+	min-height: 450px;
+	padding: 5px;
+}
+
+.content-right {
+	background: rgba(237,230,206,0.8);
+	width: 700px;
+	min-height: 450px;
+	padding: 5px;
+}
+
+.article-img {
+	border: 2px solid #fff;
+	margin-right: 10px;
+}
+
+.article-img:hover {
+	border: 2px solid #2f7622;
+}
+
+footer {	
+	font-size: 0.7em;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* Helper Classes */
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.container-fluid {
+	background: url(img/bg-wood.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	  
+	height: 100%;
+	background-color: #060;
+	margin-bottom: -100px;
+}
+
+.center {
+	text-align: center;
+}
+
+.nav-cust {
+	margin-top: 115px; 
+	min-width: 260px;	
+}
+
+.nav-cust > a > li {
+	color: #000;
+}
+
+.logo {
+	width: 120px;
+	margin-top: 50px;
+	padding-bottom: 20px;
+}
+
+.nav-row {
+	margin-top: 10px;
+}
+
+.nav-left {
+	float: left;
+	padding-left: 50px;
+}
+
+.nav-right {
+	float: right;
+	padding-right: 50px;
+}
+
+.content-left {
+	background-color: #fff;
+	padding: 0;
+}
+
+.content-right {
+	background-color: #d8c793;
+}
+
+.carousel {
+	border: 5px solid #2f7622;
+}
+
+.content-row {
+	margin-top: 10px;
+	min-height: 150px;
+}
+
+.footer {
+	padding-top: 20px;
+}
+*/

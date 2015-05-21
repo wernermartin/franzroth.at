@@ -42,6 +42,7 @@ p {
 	padding: 2em;
 	margin: 0 auto;	
 	background: url(img/logo-lot65.png) 50px 115px no-repeat;
+	/* media query @1200px */
 }
 
 .content-wrapper {
@@ -54,7 +55,7 @@ p {
 
 .header {
 	background: url(img/logo-roth.png) no-repeat center center;
-	padding-top: 106px;
+	padding-top: 110px;
 	padding-bottom: 40px;
 	font-size: 1.2em;	
 }
@@ -109,7 +110,8 @@ p {
 	text-decoration: none;
 	color: #000;
 	display: inline-block;
-	padding: 10px; 
+	padding: 10px 20px;
+	border: 3px solid #fff;
 }
 
 .nav-item:hover {
@@ -118,11 +120,13 @@ p {
 	-moz-transition: background-color 0.3s ease-in;
 	-webkit-transition: background-color 0.3s ease-in;
 	transition: background-color 0.3s ease-in;
+	border: 3px solid #fff;
 }
 
 .nav-item:focus {
 	background-color: #2f7622;
 	color: #fff;
+	border: 3px solid #fff;
 }
 
 .nav-item:focus ~ .nav-content {
@@ -130,6 +134,10 @@ p {
 	-webkit-transition: max-height 0.4s ease-in;
 	-moz-transition: max-height 0.4s ease-in;
 	transition: max-height 0.4s ease-in;
+}
+
+.pad-fix {
+	padding-left: 0px;
 }
 
 
@@ -146,8 +154,10 @@ p {
 	padding-bottom: -50px;
 	border: 5px solid #2f7622;
 	background: url(img/main01.jpg);
-	height: 200px;
+	height: 250px;
 }
+
+
 
 .content-left {
 	background: rgba(255,255,255,0.8);

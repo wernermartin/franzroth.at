@@ -34,7 +34,7 @@
 
         <nav class="nav-right pull-right">
           <ul class="h-nav">
-            <li><a class="nav-item" href="#">Produkte</a></li>
+            <li><a class="nav-item pad-fix" href="#">Produkte</a></li>
             <li><a class="nav-item" href="#">Referenzen</a></li>
             <li>
               <a class="nav-item" href="#">Kontakt</a>
@@ -55,6 +55,7 @@
         </div><!-- END of header -->
 
         <div class="carousel">
+          
           <!--<img src="img/main01.jpg" width="880px" alt="Franz Roth">-->
         </div>
 

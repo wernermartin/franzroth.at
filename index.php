@@ -28,13 +28,13 @@
           <ul class="h-nav">
             <li><a class="nav-item" href="#">Home</a></li>
             <li><a class="nav-item" href="#">Geschichte</a></li>
-            <li><a class="nav-item" href="#">&Uuml;ber uns</a></li>
+            <li class="pad-fix"><a class="nav-item" href="#">&Uuml;ber uns</a></li>
           </ul>
         </nav>
 
         <nav class="nav-right pull-right">
           <ul class="h-nav">
-            <li><a class="nav-item pad-fix" href="#">Produkte</a></li>
+            <li><a class="nav-item" href="#">Produkte</a></li>
             <li><a class="nav-item" href="#">Referenzen</a></li>
             <li>
               <a class="nav-item" href="#">Kontakt</a>
@@ -55,8 +55,6 @@
         </div><!-- END of header -->
 
         <div class="carousel">
-          
-          <!--<img src="img/main01.jpg" width="880px" alt="Franz Roth">-->
         </div>
 
         <div class="content">
@@ -71,14 +69,19 @@
 
           <div class="content-right pull-right">
             <p>
-              <img class="article-img pull-right" src="img/placeholder-01.png" alt="Placeholder">
+              
+              <a href="img/placeholder-lg-01.png" data-lightbox="placeholder-01" data-title="Placholder">
+                <img class="article-img pull-right" src="img/placeholder-01.png"alt="Placeholder">
+              </a>
               <a href="#">Lorem ipsum</a> dolor sit amet, consectetur adipiscing elit. Etiam nec purus euismod, viverra libero nec, mollis sem. Aenean tempus a orci eu condimentum. Nullam ut ligula vitae justo feugiat blandit. Morbi finibus, leo ac rutrum imperdiet, dui tortor sagittis velit, eget efficitur turpis quam eget sem. Nam eu leo purus. Suspendisse urna sem, elementum ut efficitur quis, vestibulum non lectus. Donec sodales rhoncus neque, id tincidunt lorem placerat a. Ut fermentum ullamcorper porta. Etiam risus est, auctor non nisi elementum, interdum rutrum nisl.
             </p>
             <p>
               Quisque magna urna, elementum vel dictum a, interdum ut mauris. Cras blandit velit et tincidunt bibendum. Nulla erat est, molestie in facilisis a, bibendum vel odio. Quisque vitae porta sapien. Praesent id fringilla augue. Nulla in lacus pharetra orci malesuada convallis a ac quam. Proin vel purus bibendum, luctus orci in, finibus orci.
             </p>
             <p>
-              <img class="article-img pull-left" src="img/placeholder-02.png" alt="Placeholder">
+              <a href="img/placeholder-lg-02.png" data-lightbox="placeholder-02" data-title="Placholder">
+                <img class="article-img pull-left" src="img/placeholder-02.png" alt="Placeholder">
+              </a>
               Praesent mattis metus sollicitudin blandit euismod. Phasellus blandit consequat lectus, sed bibendum libero vulputate sit amet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent nec mi sed erat accumsan malesuada blandit vel enim. Vivamus consequat tortor vitae felis tincidunt, vel blandit urna luctus. Fusce vel eros nec tortor pharetra laoreet. Pellentesque nec ultricies tortor, eget hendrerit nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi consectetur nisi vitae neque semper aliquet.
             </p>
           </div>

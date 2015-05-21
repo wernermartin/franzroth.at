@@ -2,9 +2,9 @@
 	margin: 0;
 	padding: 0;
 
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;	
 }
 
 body {
@@ -14,23 +14,23 @@ body {
 	background-image: url(img/bg-wood.jpg);
 	background-attachment: fixed;
 	background-position: center center;
+	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	-o-background-size: cover;	
 }
 
 a:link, a:visited {
 	text-decoration: none;
-	color: #2f7622;
+	color: #1e772d;
 }
 
 a:hover {
-	background-color: #2f7622;
+	background-color: #1e772d;
 	color: #fff;
-	-moz-transition: background-color 0.3s ease-in;
-	-webkit-transition: background-color 0.3s ease-in;
 	transition: background-color 0.3s ease-in;
+	-moz-transition: background-color 0.3s ease-in;
+	-webkit-transition: background-color 0.3s ease-in;	
 }
 
 p {
@@ -41,8 +41,13 @@ p {
 .wrapper {
 	padding: 2em;
 	margin: 0 auto;	
-	background: url(img/logo-lot65.png) 50px 115px no-repeat;
-	/* media query @1200px */
+	background: url(img/logo-lot65.png) 50px 115px no-repeat;	
+}
+
+@media screen and (max-width: 1200px) {
+	.wrapper {
+		background: none;
+	}
 }
 
 .content-wrapper {
@@ -55,17 +60,19 @@ p {
 
 .header {
 	background: url(img/logo-roth.png) no-repeat center center;
-	padding-top: 110px;
+	padding-top: 81px;
 	padding-bottom: 40px;
 	font-size: 1.2em;	
 }
 
 .nav-left {
 	padding-left: 0px;
+	padding-top: 18px;
 }
 
 .nav-right {
 	padding-right: 0px;
+	padding-top: 18px;
 }
 
 .h-nav {	
@@ -80,10 +87,10 @@ p {
 
 .nav-content {
 	position: absolute;
-	top: 155px;
+	top: 145px;
 	overflow: hidden;
 	background-color: #fff;
-	max-height: 0;
+	max-height: 0px;
 }
 
 .nav-sub {
@@ -110,34 +117,49 @@ p {
 	text-decoration: none;
 	color: #000;
 	display: inline-block;
-	padding: 10px 20px;
+	padding: 5px 20px;
 	border: 3px solid #fff;
 }
 
 .nav-item:hover {
 	color: #fff;
-	background-color: #2f7622;
+	background-color: #1e772d;
+	transition: background-color 0.3s ease-in;
 	-moz-transition: background-color 0.3s ease-in;
 	-webkit-transition: background-color 0.3s ease-in;
-	transition: background-color 0.3s ease-in;
+	-o-transition: background-color 0.3s ease-in;	
 	border: 3px solid #fff;
 }
 
 .nav-item:focus {
-	background-color: #2f7622;
+	background-color: #1e772d;
 	color: #fff;
 	border: 3px solid #fff;
 }
 
-.nav-item:focus ~ .nav-content {
+.nav-item:focus + .nav-content {
+	display: block;
 	max-height: 400px;
-	-webkit-transition: max-height 0.4s ease-in;
-	-moz-transition: max-height 0.4s ease-in;
 	transition: max-height 0.4s ease-in;
+	-webkit-transition: max-height 0.4s ease-in;
+	-moz-transition: max-height 0.4s ease-in;	
+	-o-transition: max-height 0.4s ease-in;
 }
 
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.nav-item:hover + .nav-content { 
+		max-height: 400px;
+		transition: max-height 0.4s ease-in;
+		-webkit-transition: max-height 0.4s ease-in;
+		-moz-transition: max-height 0.4s ease-in;	
+		-o-transition: max-height 0.4s ease-in;
+	}	
+}
+
+
 .pad-fix {
-	padding-left: 0px;
+	padding-right: 15px;
 }
 
 
@@ -149,10 +171,10 @@ p {
 	padding: 5px 0px;
 }
 
-.carousel {
-	margin-bottom: 10px;
-	padding-bottom: -50px;
-	border: 5px solid #2f7622;
+.carousel {		
+	border: 5px solid #1e772d;
+	border-left: none;
+	border-right: none;
 	background: url(img/main01.jpg);
 	height: 250px;
 }
@@ -179,8 +201,10 @@ p {
 }
 
 .article-img:hover {
-	border: 2px solid #2f7622;
+	border: 2px solid #1e772d;
 }
+
+
 
 footer {	
 	font-size: 0.7em;

@@ -280,15 +280,12 @@
 	},
 	"expanded_folders":
 	[
-		"/E/Website - Projekte/code/franzroth.at",
-		"/E/Website - Projekte/code/franzroth.at/dist",
-		"/E/Website - Projekte/code/franzroth.at/dist/img",
-		"/E/Website - Projekte/code/franzroth.at/src",
-		"/E/Website - Projekte/code/franzroth.at/src/css",
-		"/E/Website - Projekte/code/franzroth.at/src/js"
+		"/D/htdocs/code/franzroth.at"
 	],
 	"file_history":
 	[
+		"/D/htdocs/code/franzroth.at/index_bootstrap.php",
+		"/D/Steam/SteamApps/common/Arma 3/MPMissions/tb_rhs_chaman_valley_H.Takistan.pbo",
 		"/E/Website - Projekte/assets/cssplay_dropdown/pro_dropdown_6/pro_dropdown_6.css",
 		"/E/Website - Projekte/assets/cssplay_dropdown/pro_drop6.html",
 		"/E/Website - Projekte/code/franzroth.at/dist/all.min.js",
@@ -471,8 +468,8 @@
 						"selection":
 						[
 							[
-								4475,
-								4475
+								785,
+								785
 							]
 						],
 						"settings":
@@ -481,11 +478,11 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 753.0,
+						"translation.x": -0.0,
+						"translation.y": 168.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -515,7 +512,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -566,20 +563,21 @@
 						"selection":
 						[
 							[
-								3480,
-								3487
+								1279,
+								1279
 							]
 						],
 						"settings":
 						{
 							"auto_name": "main.css",
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 2610.0,
+						"translation.x": -0.0,
+						"translation.y": 462.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -661,7 +659,7 @@
 		],
 		"width": 400.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
